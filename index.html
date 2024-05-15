@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DevClub - JokenPô</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JokenPô</h1>
+
+        <div class="buttons">
+            <button id="rock" onclick="player('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="player('paper')">&#x1F91A;</button>
+            <button id="scissors" onclick="player('scissors')">&#x270C;</button>
+        </div>
+        <p class="result"></p>
+
+        <p class="my-score">Sua Pontuação: <span id="player-score">0</span></p>
+        <p class="com-score">Pontuação do COM: <span id="machine-score">0</span></p>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
